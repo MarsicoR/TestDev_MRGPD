@@ -42,7 +42,7 @@
 .header .pull-right{
     position: fixed;
 	height: 50px;
-    top: 50px;
+    top: 10px;
 	right: 10px;
 	display: flex;
 	align-items: center;
@@ -85,6 +85,7 @@
     display: flex;
     width: 220px !important;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .welcome-search .search-wrapper button{
