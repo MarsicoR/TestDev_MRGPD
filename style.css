@@ -166,7 +166,7 @@
     bottom: 0;
     height: 40px;
     width: 220px;
-    background-color: #0082C8;
+    background-color: #008cff;
     cursor: pointer;
     transition: width 0.25s ease-out;
 }
