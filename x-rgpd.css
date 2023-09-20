@@ -1,0 +1,447 @@
+/*** Header */
+
+#header.darkmode,
+#header.darkmode .pull-left {
+	background-color: #1B1B1B;
+	color: #E3F2FD;
+}
+
+#header.darkmode .logo-mrgpd {
+	background-image: url("easysite-resources/skins/workplace/img/login-logo2.png");
+	background-size: 140px;
+	background-position: 25px 15px;
+	background-repeat: no-repeat;
+	height: 70px;
+}
+#header.darkmode .logo-mrgpd img {
+	display:none;
+}
+
+#header.darkmode .pull-left {
+	background-color: #1B1B1B;
+	color: #E3F2FD;
+}
+
+
+
+
+#header.darkmode input.search-input {
+	border-color: #003F7E;
+}
+
+
+#header.darkmode .search-wrapper>i,
+#header.darkmode .search-wrapper button{
+	color: #0068AD;
+}
+
+#header.darkmode input.search-input,
+#header.darkmode input.search-input::placeholder {
+	color: #E3F2FD;
+}
+
+
+
+#header.darkmode .categ span {
+	border-color: #1B1B1B;
+}
+
+#header.darkmode .categ span:not(.categ-open):hover,
+#header.darkmode .categ span[active="1"] {
+	background-color: #2E2E2E;
+	border-color: #B1BFCA;
+}
+
+
+#header.darkmode .categ span.categ-open,
+#header.darkmode #menu-apps,
+#header.darkmode #menu-apps .tile {
+	background-color: #003F7E;
+}
+
+#header.darkmode #menu-apps .tile .notif-counter.bg-red {
+	background-color: #AD2700;
+}
+
+#header.darkmode .page-title {
+	background-color: #003F7E;
+}
+
+#header.darkmode .username {
+	background-color: #2E2E2E;
+}
+
+
+
+
+#header.darkmode #switchmenu {
+	background-color: #003F7E;
+}
+
+
+.page[minimenu='1'] #header.darkmode .categ span {
+	border-color: #1B1B1B;
+}
+
+
+.page[minimenu='1'] #header.darkmode  .logo-wrapper a {
+	background-image: url(../../../../images/favicon.ico);
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: 5px 10px;
+	height: 60px;
+}
+
+
+/*** Home */
+
+
+#home #header.darkmode~#default-container .page-title {
+	background-color: #003F7E;
+}
+
+
+#header.darkmode~#default-container #select-orgas {
+	background-color: #1B1B1B;
+	color: #B1BFCA;
+}
+#header.darkmode~#default-container #select-orgas option {
+	color: #B1BFCA;
+}
+
+#header.darkmode~#default-container .page-title {
+	background-color: #2E2E2E;
+	border-color: #2E2E2E;
+}
+#header.darkmode~#default-container .title-container {
+	background-color: #003F7E;
+}
+
+
+#header.darkmode~#default-container .search-wrapper>i,
+#header.darkmode~#default-container .search-wrapper button,
+#header.darkmode~#default-container .search-wrapper input.search-input::placeholder {
+	color: #B1BFCA;
+}
+
+
+
+#header.darkmode~#default-container .div-tuiles .single-tile a.moovapps-quality-center-audit:before,
+#header.darkmode~#default-container .div-tuiles .single-tile a.moovapps-rgpd-gestion-droits:before,
+#header.darkmode~#default-container .div-tuiles .single-tile a.moovapps-quality-center-action:before {
+	background: #0068AD;
+}
+#header.darkmode~#default-container .div-tuiles .single-tile a.moovapps-gdpr:before {
+	background: #003F7E;
+}
+#header.darkmode~#default-container .div-tuiles .single-tile a.moovapps-rgpd-declaration-incidents:before {
+	background: #AD2700;
+}
+
+
+#header.darkmode~#default-container div.dc-chart {
+	background-color: #1B1B1B;
+	color: #B1BFCA;
+}
+
+
+
+
+
+
+/*** Global */
+
+
+#header.darkmode~#default-container {
+	color: #B1BFCA;
+	background-color: #2E2E2E;
+	border-top-left-radius: 0;
+	border-color: #2E2E2E;
+}
+
+#header.darkmode~#default-container a:visited,
+#header.darkmode~#default-container a:link {
+	color: #E3F2FD;
+}
+
+#header.darkmode~#default-container .multiservice-links a {
+	color: #B1BFCA;
+}
+#header.darkmode~#default-container .multiservice-links a.active:before,
+#header.darkmode~#default-container .custom-multiservice-menu a.active:before {
+	background-color: #2E2E2E;
+}
+
+#header.darkmode~#default-container .bg-white {
+	background-color: #1B1B1B;
+}
+
+#header.darkmode~#default-container h1,
+#header.darkmode~#default-container h2,
+#header.darkmode~#default-container h4 {
+	color: #E3F2FD;
+}
+
+#header.darkmode~#default-container .treatment-edit h1 {
+	background-color: #1B1B1B;
+	color: #E3F2FD;
+}
+
+#header.darkmode~#default-container .section h2,
+#header.darkmode~#default-container  .section-highlighted h2 {
+	background-color: #1B1B1B;
+}
+
+#header.darkmode~#default-container .form-area.fixed-buttons>.document-top-buttons {
+	background-color: #1B1B1B;
+	border-color: #2E2E2E;
+}
+
+#header.darkmode~#default-container .section {
+	background-color: #2E2E2E;
+}
+
+#header.darkmode~#default-container .section .section {
+	background-color: #1B1B1B;
+	border-color: #0068AD;
+	box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.8);
+}
+
+
+#header.darkmode~#default-container .section .section.section h2 span,
+#header.darkmode~#default-container .section .section.subsection H2 SPAN {
+	font-size: 22px;
+	color: #E3F2FD;
+}
+
+#header.darkmode~#default-container label,
+#header.darkmode~#default-container .fields-group TD.cell-right {
+	color: #B1BFCA;
+}
+
+
+#header.darkmode~#default-container .navigation-area .list-view .detail a {
+	color: #B1BFCA;
+}
+
+#header.darkmode~#default-container .action-summary {
+	background: #1B1B1B;
+	color: #B1BFCA;
+}
+
+
+
+
+
+#header.darkmode~#default-container input,
+#header.darkmode~#default-container button,
+#header.darkmode~#default-container select,
+#header.darkmode~#default-container .textarea-large,
+#header.darkmode~#default-container textarea {
+	background: black;
+	color: white;
+	border: 0;
+}
+
+#header.darkmode~#default-container option {
+	color: #B1BFCA;
+}
+
+
+
+
+#header.darkmode~#default-container .button1,
+#header.darkmode~#default-container .button2,
+#header.darkmode~#default-container .button3,
+#header.darkmode~#default-container .handler-workflow-more-actions-menu,
+#header.darkmode~#default-container .popup-menu-handler.handler-row {
+	background-color: #000000;
+	color: #B1BFCA;
+	border: 0;
+}
+#header.darkmode~#default-container .button2 span,
+#header.darkmode~#default-container .button1 span {
+	color: white;
+}
+
+
+#header.darkmode~#default-container .document-main-buttons .handler-workflow-actions-menu {
+	background-color: #0068AD;
+}
+
+#header.darkmode~#default-container .document-main-buttons .handler-workflow-more-actions-menu span a,
+#header.darkmode~#default-container .document-main-buttons .handler-workflow-more-actions-menu:after {
+	color:white;
+}
+
+
+#header.darkmode~#default-container .button1.action-save {
+	background-color: #0068AD;
+}
+
+#header.darkmode~#default-container .button2.action-close {
+	background-color: #AD2700;
+}
+
+
+#header.darkmode~#default-container .popup-menu {
+	background-color: #1B1B1B;
+	color: #B1BFCA;
+}
+
+
+#header.darkmode~#default-container .form-area .view-area {
+	background-color: #1B1B1B;
+}
+
+
+#header.darkmode~#default-container .section-bleu {
+	background-color: inherit;
+}
+
+
+
+
+#header.darkmode~#default-container .table TH {
+	background-color: #1B1B1B;
+	color: #B1BFCA;
+}
+#header.darkmode~#default-container .table TH a {
+	color: #B1BFCA;
+}
+
+#header.darkmode~#default-container .table td a {
+	color: #0068AD;
+}
+
+
+#header.darkmode~#default-container .table-view table tbody tr:nth-child(even) {
+	background-color: #2E2E2E;
+}
+#header.darkmode~#default-container .table-view table tbody tr:nth-child(odd) {
+	background: #1B1B1B;
+}
+
+#header.darkmode~#default-container .table td.cell1,
+#header.darkmode~#default-container .table td.cell2{
+	color: #E3F2FD;
+}
+
+
+
+
+
+#header.darkmode~#default-container button.bg-green,
+#header.darkmode~#default-container .bg-green {
+	background-color: #0068AD;
+	color: #fff
+}
+
+
+#header.darkmode~#default-container .button2.action-delete {
+	background-color: #AD2700;
+	border:0;
+}
+
+
+
+
+#header.darkmode~#default-container .navigation-area .list-view .detail strong {
+	color: #E3F2FD;
+}
+
+
+
+
+#header.darkmode~#default-container .ipo-planning-container,
+#header.darkmode~#default-container .ipo-planning-container .ipo-planning-legend-information ul{
+	background-color: #1B1B1B;
+}
+
+#header.darkmode~#default-container .ipoplan-scale-definition1,
+#header.darkmode~#default-container .ipoplan-scale-definition2,
+#header.darkmode~#default-container .ipoplan-scale-definition3,
+#header.darkmode~#default-container .ipoplan-resource-header,
+#header.darkmode~#default-container .ipoplan-resource-label,
+#header.darkmode~#default-container .ipoplan-cell {
+	background-color: #2E2E2E;
+}
+
+
+
+#header.darkmode~#default-container .search-main .view-area {
+	background-color: #1B1B1B;
+}
+
+#header.darkmode~#default-container  .form-main-button>button {
+	background-color: #0068AD;
+}
+
+#header.darkmode~#default-container  .action-reset,
+#header.darkmode~#default-container  .axvdocsearch-button.form-secondary-action {
+	background-color: #AD2700;
+}
+
+
+#header.darkmode~.footer {
+	color: #E3F2FD;
+}
+#header.darkmode~.footer small {
+	background-color: #1B1B1B;
+}
+#header.darkmode~.footer a {
+	color: #B1BFCA;
+}
+
+.progress {
+	/* Layout Properties */
+  height: 50px;
+  /* UI Properties */
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+	padding: 10px;
+	color: dimgray;
+	border: 1px solid #00000029;
+	/*background-color: #ccf4c4;*/
+	display: flex;
+	position: fixed;
+	right: 50%;
+	top: 0px;
+	border-radius: 5px;
+	/*box-shadow: 3px 3px 3px green;*/
+	margin: 2px 0;
+	z-index: 2147483647;
+  }
+
+  .center {
+	margin: auto;
+  }
+
+  .message {
+	padding-left: 10px;
+  }
+
+  .checkmark {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #36a236;
+  }
+
+  .spinner {
+	/*position: relative;
+	top: 50%;*/
+	/*padding: 10px;*/
+	width: 20px;
+	height: 20px;
+	border: 4px #ddd solid;
+	border-top: 4px #2e93e6 solid;
+	border-radius: 50%;
+	animation: sp-anime 1s infinite linear;
+  }
+  @keyframes sp-anime {
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
