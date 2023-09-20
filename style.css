@@ -22,11 +22,11 @@
 }
 
 .logo-wrapper{
-    margin-left: 0;
+    display: flex;
     width: 220px;
-    align-items: center;
-    justify-items: center;
     height: auto;
+    justify-items: center;
+    padding-bottom: 50px;
 }
 
 .logo-wrapper img{
